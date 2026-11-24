@@ -16,13 +16,15 @@ lastUpdated: 2026-06-30
 |----------|-------|-------------|
 | [0. 前提条件][ex0] | セットアップ | リポジトリと codespace を作成する |
 | [1. Copilot CLI のインストール][ex1] | インストール | Copilot CLI をインストールして認証する |
-| [2. カスタム命令][ex2] | コンテキスト | 命令を追加し、Copilot CLI がどのように従うかを確認する |
-| [3. コード生成][ex3] | コード生成 | プラン モードを使って機能を生成する |
-| [4. Playwright MCP によるテスト][ex4] | 外部ツール | Playwright MCP サーバーを追加し、ブラウザーで機能をテストする |
+| [2. 星評価を追加する][ex2] | コード変更 | ゲームカードに星評価を表示する |
+| [3. エージェントモード][ex3] | Plan モード | 設定された計画で機能を実装する |
+| [4. カスタム指示][ex4] | コンテキスト | プロジェクト固有の規約を追加する |
 | [5. エージェント スキル][ex5] | スキル | 専門スキルで Copilot を強化する |
-| [6. カスタム エージェント][ex6] | エージェント | カスタム エージェントを確認して使用する |
-| [7. スラッシュ コマンド][ex7] | CLI 機能 | コンテキスト、モデル、共有、cloud agent への任意の委任を確認する |
-| [9. 振り返り][ex9] | まとめ | 重要な概念と次のステップを確認する |
+| [6. Playwright MCP][ex6] | 外部ツール | ブラウザーで機能をテストする |
+| [7. QA エージェント][ex7] | QA | 再利用可能なエージェントでテストをレビューする |
+| [8. プルリクエストの作成][ex8] | 変更の共有 | レビュー済みの変更を共有する |
+| [9. CLI 活用][ex9] | CLI 機能 | コンテキスト、モデル、共有を確認する |
+| [10. 振り返り][ex10] | まとめ | ワークフローと次のステップを確認する |
 | [オプション: Foundry を組み込む][foundry] | ホスト型エージェント | モデルを準備し、カタログに基づいた Backer Concierge を構築してデプロイし、Web サイトに接続する |
 
 ## 前提条件
@@ -47,11 +49,13 @@ lastUpdated: 2026-06-30
 
 [ex0]: 0-prerequisites/
 [ex1]: 1-install-copilot-cli/
-[ex2]: 2-custom-instructions/
-[ex3]: 3-generating-code/
-[ex4]: 4-mcp/
+[ex2]: 2-add-star-rating/
+[ex3]: 3-agent-modes/
+[ex4]: 4-custom-instructions/
 [ex5]: 5-agent-skills/
-[ex6]: 6-custom-agents/
-[ex7]: 7-slash-commands/
+[ex6]: 6-mcp-playwright/
+[ex7]: 7-qa-agent/
+[ex8]: 8-create-pull-request/
 [foundry]: 8-foundry-agent/
-[ex9]: 9-review/
+[ex9]: 9-cli-power-tools/
+[ex10]: 10-review/
